@@ -1,0 +1,131 @@
+.table td {
+  width:30%;
+}
+
+.table td.MyRight {
+  text-align: center;
+
+}
+
+.table td.MyRight2 {
+  text-align: right;
+}
+
+
+.table td.MyRight1 {
+  text-align: center;
+}
+
+.table td.MyCenter {
+  text-align: center;
+}
+.table-nonfluid {
+   width: auto;
+}
+
+.table .my_item, .text {
+  text-align: center;
+  color:#973B7D;
+  font-style:bold;
+}
+
+.table .my_item1 {
+  text-align: center;
+  color:#973B7D;
+  font-style:bold;
+}
+
+.table .my_item3 {
+  text-align: center;
+  color:#973B7D;
+  font-style:bold;
+}
+
+.My-Text {
+  text-align: right;
+  color:#973B7D;
+  font-style:bold;
+  font-family:sans-serif !important;
+  font-size:12px;
+}
+
+.well{
+color:#973B7D;
+}
+
+.Ring_Descr {
+  color:#1C94C4;
+}
+body {
+
+  font-family:sans-serif !important;
+  font-size:12px;
+   color:black;
+}
+header {
+
+  background-color:#00bcd4;
+  color:#fff;
+}
+.vertical_nav {
+
+  background-color:#00bcd4;
+  color:#fff;
+}
+a {
+  color:#fff;
+}
+.collapse_menu {
+  background-color:#00bcd4;
+  color:#fff;
+}  
+@font-face {
+            font-family: 'AccentureRotisLight';
+            src: url(fonts/rotsanl.eot);
+            src: local(":P"), url(fonts/rotsanl.eot?#iefix) format("embedded-opentype"), url(fonts/rotsanl.woff) format("woff"), url(fonts/rotsanl.svg#AccentureRotis) format("svg"), url(fonts/rotsanl.ttf) format("truetype"), url(fonts/rotsanl.otf) format("otf");
+            font-weight: normal;
+            font-style: normal;
+        }
+
+body {
+  font-family:'AccentureRotisLight' !important;
+  font-size:12px !important;
+}
+a ul {
+background-color:#00bcd4;
+}
+
+.breadcrumb {
+background:none;  
+}
+strong {
+  color:black;
+}
+
+.sub_menu--link {
+  font-size:12px !important;
+}
+#climate {
+  font-size:80px;
+}
+
+.glyphicon.glyphicon-cloud {
+font-size:100px;
+}
+.fa.fa-facebook {
+  font-size:80px !important;
+}
+.facebook {
+font-size:100px;
+}
+.fa.fa-twitter {
+   font-size:80px !important; 
+}
+.twitter {
+  font-size:100px;
+}
+
+.fa.fa-road {
+font-size:40px;
+
+}

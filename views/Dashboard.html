@@ -1,0 +1,54 @@
+<div id="maindashboard" style="width:1050px;font-size:12px;">
+   <ol class="breadcrumb">
+      <li>Page</li>
+      <li><a href="#/MetricsDashboard"><strong>Dashboard</strong></a></li>
+   </ol>
+   <div class="row">
+      <div class="col-md-6" style="width:50%;float:left;" ng-controller="DefectsMetricsChart">
+            <div class = "panel panel-primary">
+               <div class = "panel-heading">
+                  <h3 class = "panel-title">DEFECTS METRICS</h3>
+               </div>
+               
+               <div class = "panel-body">
+                  <div google-chart chart="pieChart" style="width: 350px; height: 250px;"></div>              
+               </div>
+            </div>
+      </div>
+      <div class="col-md-6" style="width:50%;float:left;" ng-controller="PlannedvsActual">
+         <div class = "panel panel-primary">
+            <div class = "panel-heading">
+               <h3 class = "panel-title">PLANNED V ACTUAL EFFORT</h3>
+            </div>
+            
+            <div class = "panel-body">
+               <div google-chart chart="chart_div" style="width: 350px; height: 250px;"></div> 
+            </div>
+         </div>
+      </div>
+   </div>
+
+   <div class="row">
+      <div class="col-md-4" style="width:50%;float:left;" ng-controller="TestMetrics">
+            <div class = "panel panel-primary">
+               <div class = "panel-heading">
+                  <h3 class = "panel-title">TEST METRICS</h3>
+               </div>
+               
+               <div class = "panel-body">
+                  <div google-chart chart="donutchart" style="width: 350px; height: 250px;"></div>              
+               </div>
+            </div>
+      </div>
+      <div class="col-md-4" style="width:50%;float:left;" ng-controller="ProjectPhases">
+         <div class = "panel panel-primary">
+            <div class = "panel-heading">
+               <h3 class = "panel-title">PROJECT PERFORMANCE</h3>
+            </div>
+            
+            <div class = "panel-body">
+                 <div google-chart chart="phaseCharts" style="width: 350px; height: 250px;"></div>  
+            </div>
+         </div>
+      </div>
+</div>
